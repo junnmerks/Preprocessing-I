@@ -135,3 +135,14 @@ body {
   height: 100%;
   width: 1200px;
 }
+header {
+  background-color: grey;
+  padding: 2rem 0rem;
+}
+header h1 {
+  font-size: 2rem;
+  padding: 0.5rem 0;
+}
+section {
+  width: 30%;
+}
