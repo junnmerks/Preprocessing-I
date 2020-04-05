@@ -102,7 +102,7 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+  display: flex;
 }
 body {
   line-height: 1;
@@ -138,6 +138,7 @@ body {
 header {
   background-color: grey;
   padding: 6rem 3rem;
+  display: block;
 }
 header h1 {
   font-size: 3rem;
@@ -166,18 +167,16 @@ header button {
   margin-top: 3rem;
 }
 section .middle-content {
-  width: 45%;
+  width: 40%;
   display: flex;
   flex-wrap: wrap;
 }
 section div {
   width: 50%;
-  display: flex;
-  flex-wrap: wrap;
 }
 section h2 {
   font-size: 2.5rem;
-  padding: 1rem;
+  padding: 1rem 0rem;
 }
 section p {
   font-size: 2rem;
@@ -185,4 +184,16 @@ section p {
 section li {
   font-size: 2rem;
   border: solid black 0.5px;
+  border-width: 10%;
+  padding: 1rem;
+}
+.bottom-content {
+  font-size: 2rem;
+}
+footer {
+  justify-content: center;
+  width: 100%;
+  background-color: grey;
+  font-size: 1.5rem;
+  color: white;
 }
