@@ -136,31 +136,45 @@ body {
   font-size: 62.5%;
 }
 header {
+  justify-content: flex-end;
+  font-size: 2rem;
+}
+header .nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+header a {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+.me {
   background-color: grey;
   padding: 6rem 3rem;
   display: block;
 }
-header h1 {
+.me h1 {
   font-size: 3rem;
   padding: 0.5rem 0;
 }
-header .face {
+.me .face {
   width: 20%;
 }
-header div {
+.me div {
   color: cyan;
   font-size: 2rem;
   padding: 0.5rem;
 }
-header .address {
+.me .address {
   padding-bottom: 2rem;
   border-bottom: solid black 1px;
 }
-header p {
+.me p {
   font-size: 2rem;
   padding-top: 2rem;
 }
-header button {
+.me button {
   padding: 1rem;
   font-size: 2.5rem;
   border-radius: 1rem;
@@ -190,10 +204,11 @@ section li {
 .bottom-content {
   font-size: 2rem;
 }
-footer {
+.bottom-content footer {
   justify-content: center;
   width: 100%;
   background-color: grey;
   font-size: 1.5rem;
   color: white;
+  padding: 2rem 0rem 3rem 0rem;
 }
