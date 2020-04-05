@@ -84,7 +84,7 @@ mark,
 audio,
 video {
   margin: 0;
-  padding: 0;
+  padding: 0%;
   border: 0;
   font-size: 100%;
   font: inherit;
@@ -133,15 +133,37 @@ table {
 html,
 body {
   height: 100%;
-  width: 1200px;
+  font-size: 62.5%;
 }
 header {
   background-color: grey;
-  padding: 2rem 0rem;
+  padding: 6rem 3rem;
 }
 header h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   padding: 0.5rem 0;
+}
+header .face {
+  width: 20%;
+}
+header div {
+  color: cyan;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+header .address {
+  padding-bottom: 2rem;
+  border-bottom: solid black 1px;
+}
+header p {
+  font-size: 2rem;
+  padding-top: 2rem;
+}
+header button {
+  padding: 1rem;
+  font-size: 2.5rem;
+  border-radius: 0.1rem;
+  margin-top: 3rem;
 }
 section {
   width: 30%;
