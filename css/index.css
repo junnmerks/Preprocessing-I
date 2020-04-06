@@ -142,12 +142,15 @@ header {
 header .nav {
   display: flex;
   justify-content: space-around;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  width: 400px;
+  padding: 1rem;
 }
 header a {
   display: flex;
   justify-content: space-around;
   flex-wrap: nowrap;
+  text-decoration: none;
 }
 .me {
   background-color: grey;
@@ -203,8 +206,11 @@ section li {
 }
 .bottom-content {
   font-size: 2rem;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
-.bottom-content footer {
+footer {
   justify-content: center;
   width: 100%;
   background-color: grey;
