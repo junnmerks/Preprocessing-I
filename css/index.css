@@ -153,7 +153,7 @@ header a {
   text-decoration: none;
 }
 .me {
-  background-color: grey;
+  background-color: lightgrey;
   padding: 6rem 3rem;
   display: block;
 }
@@ -165,7 +165,7 @@ header a {
   width: 20%;
 }
 .me div {
-  color: cyan;
+  color: white;
   font-size: 2rem;
   padding: 0.5rem;
 }
@@ -227,14 +227,14 @@ header a {
   justify-content: flex-start;
   border: solid black 1px;
 }
-.bottom-content .1,
-.bottom-content .2 {
-  color: grey;
+.bottom-content .One,
+.bottom-content .Three {
+  background-color: lightgrey;
 }
 footer {
   justify-content: center;
   width: 100%;
-  background-color: grey;
+  background-color: lightgrey;
   font-size: 1.75rem;
   color: white;
   padding: 2rem 0rem 3rem 0rem;
