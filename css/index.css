@@ -183,22 +183,23 @@ header a {
   border-radius: 1rem;
   margin-top: 3rem;
 }
-section .middle-content {
-  width: 40%;
+.middle-content {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
+  padding: 3rem 0rem;
 }
-section div {
+.middle-content div {
   width: 50%;
 }
-section h2 {
+.middle-content h2 {
   font-size: 2.5rem;
   padding: 1rem 0rem;
 }
-section p {
+.middle-content p {
   font-size: 2rem;
 }
-section li {
+.middle-content li {
   font-size: 2rem;
   border: solid black 0.5px;
   border-width: 10%;
@@ -207,14 +208,34 @@ section li {
 .bottom-content {
   font-size: 2rem;
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   flex-direction: row;
+  padding: 2rem 0rem;
+}
+.bottom-content h2 {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+.bottom-content .X {
+  font-weight: bold;
+}
+.bottom-content table {
+  width: 100%;
+  justify-items: flex-start;
+}
+.bottom-content tr {
+  justify-content: flex-start;
+  border: solid black 1px;
+}
+.bottom-content .1,
+.bottom-content .2 {
+  color: grey;
 }
 footer {
   justify-content: center;
   width: 100%;
   background-color: grey;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   color: white;
   padding: 2rem 0rem 3rem 0rem;
 }

@@ -121,13 +121,11 @@ header{
 
 } 
 
-section{
-
-	.middle-content{
-		width: 40%;
+.middle-content{
+		width: 100%;
 		display:flex;
 		flex-wrap: wrap;
-	}
+		padding: 3rem 0rem;
 
 	div{
 		width: 50%;
@@ -147,22 +145,46 @@ section{
 		border:solid black 0.5px;
 		border-width: 10%;
 		padding: 1rem;
-
 	}
 }
 
 .bottom-content{
 	font-size: 2rem;
 	display: flex;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	flex-direction: row;
+	padding: 2rem 0rem;
+
+	h2{
+		width:100%;
+		padding-bottom: 2rem;
+	}
+
+	.X{
+		font-weight: bold;
+	}
+
+	table{
+		width: 100%;
+		justify-items: flex-start;
+	}
+
+	tr{
+		justify-content: flex-start;
+		border: solid black 1px;
+	}
+	
+	.1, .2{
+		color: @main-color;
+	}
 }
 	
 footer{
 		justify-content: center;
 		width: 100%;
 		background-color: @main-color;
-		font-size:1.5rem;
+		font-size:1.75rem;
 		color: white;
 		padding: 2rem 0rem 3rem 0rem;
 	}		
+	
